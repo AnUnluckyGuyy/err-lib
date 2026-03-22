@@ -3,7 +3,7 @@
 #include "../err.h"
 
 Result add(int x, int y, int *result) {
-    if (!result) { return ERR_NULL_POINTER; }
+    if (!result) { return ERR_NULL_PTR; }
     *result = 0;
     if (x > 0 && y > 0 && x > INT_MAX - y) { return ERR_OVERFLOW; }
     if (x < 0 && y < 0 && x < INT_MIN - y) { return ERR_UNDERFLOW; }
