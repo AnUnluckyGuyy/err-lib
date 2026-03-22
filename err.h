@@ -10,7 +10,7 @@
 
 typedef enum {
     OK,
-    ERR_NULL_POINTER,
+    ERR_NULL_PTR,
     ERR_DIV_ZERO,
     ERR_OUT_OF_RANGE,
     ERR_OVERFLOW,
