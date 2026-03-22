@@ -32,7 +32,7 @@ typedef enum {
 static const char *string_err(Result r) {
     switch(r) {
         case OK: return "Ok";
-        case ERR_NULL_POINTER: return "Null pointer error";
+        case ERR_NULL_PTR: return "Null pointer error";
         case ERR_DIV_ZERO: return "Division by zero error";
         case ERR_OUT_OF_RANGE: return "Out of range error";
         case ERR_OVERFLOW: return "Overflow error";
